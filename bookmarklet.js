@@ -1,7 +1,7 @@
 const version = [1, 0, 1];
 
-const babel = require('babel-core');
-const babelPresetEnv = require('babel-preset-env');
+const babel = require('@babel/core');
+const babelPresetEnv = require('@babel/preset-env');
 const md5 = require('md5');
 const uglify = require('uglify-js');
 
